@@ -1,0 +1,41 @@
+{
+  "name": "itunes-albumart",
+  "version": "0.0.1-pre-release",
+  "description": "Grab album artwork from iTunes Store",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "trypkg": "node try.js"
+  },
+  "keywords": [
+    "itunes",
+    "artwork",
+    "album",
+    "art",
+    "cli"
+  ],
+  "bin": {
+    "itunes-albumart": "cli.js"
+  },
+  "author": {
+    "name": "Akash Rajendra",
+    "email": "akash0rajendra@gmail.com",
+    "url": "https://arjndr.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/arjndr/itunes-albumart/issues",
+    "email": "akash0rajendra@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arjndr/itunes-albumart.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ajax-request": "^1.2.3",
+    "meow": "^5.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}

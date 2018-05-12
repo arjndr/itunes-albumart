@@ -1,0 +1,45 @@
+# itunes-albumart
+
+Amazingly simple album art grabbing library for Node.js
+
+Feel free to send PR and contribute
+
+## Features
+
+1. Apple iTunes Store search API under the hood
+2. Multiple artwork sizes
+3. Simple to use
+4. Can be used as a CLI app too
+
+## Install
+
+`npm install itunes-albumart`
+
+## API
+`albumArt(artist, album)` - `function`
+* `artist` - String : The artist name
+* `album` - String : The album name
+
+## CLI Usage
+```
+$ npm install itunes-albumart -g
+
+$ itunes-albumart --help
+
+Usage:
+  $ itunes-albumart artist album writepath
+
+Example
+  $ itunes-albumart 'MK' '17' artwork.jpg
+```
+
+## Programmatic Usage
+```js
+const albumArt = require('itunes-albumart')
+albumArt('MK', '17').then(console.log)
+```
+
+## License
+This library uses Apple's [search API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/). You should read Apple's legal [terms](https://www.apple.com/legal/internet-services/terms/site.html) for more.
+
+[MIT](http://opensource.org/licenses/MIT) © 2018 Akash Rajendra
