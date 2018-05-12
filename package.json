@@ -1,6 +1,6 @@
 {
   "name": "itunes-albumart",
-  "version": "0.0.1-pre-release",
+  "version": "0.0.1",
   "description": "Grab album artwork from iTunes Store",
   "main": "index.js",
   "scripts": {
