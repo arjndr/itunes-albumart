@@ -43,4 +43,4 @@ albumArt('MK', '17').then(console.log)
 ## License
 This library uses Apple's [search API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/). You should read Apple's legal [terms](https://www.apple.com/legal/internet-services/terms/site.html) for more.
 
-[MIT](http://opensource.org/licenses/MIT) © 2018 Akash Rajendra
+[MIT](http://opensource.org/licenses/MIT) © 2018 - 2019 Akash Rajendra
