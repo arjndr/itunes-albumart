@@ -4,8 +4,7 @@
   "description": "Grab album artwork from iTunes Store",
   "main": "index.js",
   "scripts": {
-    "test": "ava",
-    "trypkg": "node try.js"
+    "test": "ava"
   },
   "keywords": [
     "itunes",
@@ -36,6 +35,6 @@
     "meow": "^5.0.0"
   },
   "devDependencies": {
-    "ava": "^0.25.0"
+    "ava": "^2.0.0"
   }
 }

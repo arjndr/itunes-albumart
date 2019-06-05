@@ -9,11 +9,12 @@ test('returns a url', async t => {
 })
 
 test('rejects', async t => {
-  await t.throws(albumArt('Lauv', 'The Other (Ghosts Remix)'))
+  return albumArt('Lauv', 'The Other (Ghosts Remix)').catch((err) => {
+    t.is(err.message, 'iTunes Store returned with 0 results')
+  })
 })
 
 test('different', async t => {
-  t.plan(1)
   const artwork = await albumArt('MK', '17')
   t.not(artwork.mini, artwork.largest, ' small and largest size are different URLs')
 })

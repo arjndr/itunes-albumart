@@ -1,6 +1,6 @@
 'use strict'
 const request = require('ajax-request')
-const fs = require('fs')
+
 const albumArt = function(artist, album) {
   return new Promise((resolve, reject) => {
     artist = artist.replace(/\s/g, '+').replace(/\&/g, '+')
