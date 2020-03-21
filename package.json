@@ -2,9 +2,11 @@
   "name": "itunes-albumart",
   "version": "0.0.2",
   "description": "Grab album artwork from iTunes Store",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "ava"
+    "test": "jest",
+    "build": "tsc"
   },
   "keywords": [
     "itunes",
@@ -14,16 +16,14 @@
     "cli"
   ],
   "bin": {
-    "itunes-albumart": "cli.js"
+    "itunes-albumart": "dist/cli.js"
   },
   "author": {
     "name": "Akash Rajendra",
-    "email": "akash0rajendra@gmail.com",
     "url": "https://arjndr.github.io"
   },
   "bugs": {
-    "url": "https://github.com/arjndr/itunes-albumart/issues",
-    "email": "akash0rajendra@gmail.com"
+    "url": "https://github.com/arjndr/itunes-albumart/issues"
   },
   "repository": {
     "type": "git",
@@ -31,10 +31,16 @@
   },
   "license": "MIT",
   "dependencies": {
-    "ajax-request": "^1.2.3",
+    "isomorphic-unfetch": "^3.0.0",
     "meow": "^5.0.0"
   },
   "devDependencies": {
-    "ava": "^2.0.0"
+    "@types/jest": "^25.1.4",
+    "@types/meow": "^5.0.0",
+    "@types/node-fetch": "^2.5.5",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1",
+    "ts-node": "^8.7.0",
+    "typescript": "^3.8.3"
   }
 }
