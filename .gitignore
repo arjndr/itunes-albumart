@@ -1,3 +1,5 @@
 node_modules/
 response.json
 try.js
+/yarn-error.log
+/dist
