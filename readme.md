@@ -1,6 +1,7 @@
 # itunes-albumart
 [![npm version](https://badge.fury.io/js/itunes-albumart.svg)](https://badge.fury.io/js/itunes-albumart)
 [![Donatecoins](http://donatecoins.org/btc/1G4Aai7RiQeUnoHEzEUhzQnkxB2sa4DfqJ.svg)](http://donatecoins.org/btc/1G4Aai7RiQeUnoHEzEUhzQnkxB2sa4DfqJ)
+![Tests](https://github.com/arjndr/itunes-albumart/workflows/Tests/badge.svg)
 
 Amazingly simple album art grabbing library for Node.js
 
