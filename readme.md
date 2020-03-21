@@ -3,7 +3,7 @@
 [![Donatecoins](http://donatecoins.org/btc/1G4Aai7RiQeUnoHEzEUhzQnkxB2sa4DfqJ.svg)](http://donatecoins.org/btc/1G4Aai7RiQeUnoHEzEUhzQnkxB2sa4DfqJ)
 ![Tests](https://github.com/arjndr/itunes-albumart/workflows/Tests/badge.svg)
 
-Amazingly simple album art grabbing library for Node.js
+Simple album art grabbing library
 
 Feel free to send PR and contribute
 
@@ -45,4 +45,4 @@ albumArt('MK', '17').then(console.log)
 ## License
 This library uses Apple's [search API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/). You should read Apple's legal [terms](https://www.apple.com/legal/internet-services/terms/site.html) for more.
 
-[MIT](http://opensource.org/licenses/MIT) © 2018 - 2019 Akash Rajendra
+[MIT](http://opensource.org/licenses/MIT) © 2018 - 2020 Akash Rajendra
